@@ -42,9 +42,9 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi StatusLineTerm ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi TabLine ctermbg=15 ctermfg=12 cterm=reverse guibg=#ffffff guifg=#4081ec gui=reverse
+    hi TabLine ctermbg=15 ctermfg=4 cterm=reverse guibg=#ffffff guifg=#2061bc gui=reverse
     hi TabLineFill ctermbg=NONE ctermfg=0 cterm=reverse guibg=NONE guifg=#2e3440 gui=reverse
-    hi TabLineSel ctermbg=15 ctermfg=9 cterm=reverse guibg=#ffffff guifg=#c04040 gui=reverse
+    hi TabLineSel ctermbg=15 ctermfg=1 cterm=reverse guibg=#ffffff guifg=#a02020 gui=reverse
     hi Title ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi CursorLine ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi LineNr ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
@@ -130,9 +130,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi StatusLineTerm ctermbg=NONE ctermfg=NONE cterm=reverse
     hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=underline
     hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE
-    hi TabLine ctermbg=white ctermfg=blue cterm=reverse
+    hi TabLine ctermbg=white ctermfg=darkblue cterm=reverse
     hi TabLineFill ctermbg=NONE ctermfg=black cterm=reverse
-    hi TabLineSel ctermbg=white ctermfg=red cterm=reverse
+    hi TabLineSel ctermbg=white ctermfg=darkred cterm=reverse
     hi Title ctermbg=NONE ctermfg=NONE cterm=NONE
     hi CursorLine ctermbg=NONE ctermfg=NONE cterm=NONE
     hi LineNr ctermbg=NONE ctermfg=NONE cterm=NONE
@@ -192,10 +192,10 @@ hi link CursorIM Cursor
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
-        \ '#8c2e63',
+        \ '#a02020',
         \ '#257950',
         \ '#808000',
-        \ '#1c4585',
+        \ '#2061bc',
         \ '#800080',
         \ '#008080',
         \ '#c0c0c0',
