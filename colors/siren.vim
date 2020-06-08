@@ -82,7 +82,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi WarningMsg ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#c04040 gui=NONE
     hi Cursor ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi CursorColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi QuickFixLine ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi QuickFixLine ctermbg=11 ctermfg=0 cterm=NONE guibg=#c0c080 guifg=#2e3440 gui=NONE
     hi Terminal ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Conceal ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi ToolbarLine ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
@@ -170,7 +170,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi WarningMsg ctermbg=NONE ctermfg=red cterm=NONE
     hi Cursor ctermbg=NONE ctermfg=NONE cterm=NONE
     hi CursorColumn ctermbg=NONE ctermfg=NONE cterm=NONE
-    hi QuickFixLine ctermbg=NONE ctermfg=NONE cterm=NONE
+    hi QuickFixLine ctermbg=yellow ctermfg=black cterm=NONE
     hi Terminal ctermbg=NONE ctermfg=NONE cterm=NONE
     hi Conceal ctermbg=NONE ctermfg=NONE cterm=NONE
     hi ToolbarLine ctermbg=NONE ctermfg=NONE cterm=NONE
