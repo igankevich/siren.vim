@@ -189,6 +189,7 @@ endif
 hi link EndOfBuffer NonText
 hi link Number Constant
 hi link CursorIM Cursor
+hi link texSection Identifier
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
