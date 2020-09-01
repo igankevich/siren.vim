@@ -190,6 +190,7 @@ hi link EndOfBuffer NonText
 hi link Number Constant
 hi link CursorIM Cursor
 hi link texSection Identifier
+hi link texBeginEndName Normal
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
@@ -212,5 +213,7 @@ let g:terminal_ansi_colors = [
 
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
+
+"set fillchars+=vert:│
 
 " Generated with RNB (https://github.com/romainl/vim-rnb)
