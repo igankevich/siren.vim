@@ -96,6 +96,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi orgSymbol ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#c0c080 gui=NONE
     hi orgWorkflow ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#78b98f gui=NONE
     hi orgWorkflowDate ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#78b98f gui=NONE
+    hi rustAttribute ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#c0c080 gui=NONE
 
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
@@ -184,6 +185,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi orgSymbol ctermbg=NONE ctermfg=yellow cterm=NONE
     hi orgWorkflow ctermbg=NONE ctermfg=green cterm=NONE
     hi orgWorkflowDate ctermbg=NONE ctermfg=green cterm=NONE
+    hi rustAttribute ctermbg=NONE ctermfg=yellow cterm=NONE
 endif
 
 hi link EndOfBuffer NonText
@@ -191,6 +193,14 @@ hi link Number Constant
 hi link CursorIM Cursor
 hi link texSection Identifier
 hi link texBeginEndName Normal
+hi link rustFuncName Normal
+hi link rustFuncCall Normal
+hi link rustIdentifier Normal
+hi link rustModPath Normal
+hi link rustMacro Normal
+hi link rustEnum Normal
+hi link rustTrait Normal
+hi link rustDerive Normal
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
