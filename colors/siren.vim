@@ -203,6 +203,12 @@ hi link rustMacro Normal
 hi link rustEnum Normal
 hi link rustTrait Normal
 hi link rustDerive Normal
+hi link markdownH1Delimiter Identifier
+hi link markdownH2Delimiter Identifier
+hi link markdownH3Delimiter Identifier
+hi link markdownH4Delimiter Identifier
+hi link markdownH5Delimiter Identifier
+hi link markdownH6Delimiter Identifier
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
