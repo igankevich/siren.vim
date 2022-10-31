@@ -209,6 +209,10 @@ hi link markdownH3Delimiter Identifier
 hi link markdownH4Delimiter Identifier
 hi link markdownH5Delimiter Identifier
 hi link markdownH6Delimiter Identifier
+hi link dosiniHeader Identifier
+hi link dosiniLabel Normal
+hi link dosiniValue Normal
+hi link dosiniNumber Normal
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
