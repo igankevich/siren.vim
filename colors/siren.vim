@@ -213,6 +213,8 @@ hi link dosiniHeader Identifier
 hi link dosiniLabel Normal
 hi link dosiniValue Normal
 hi link dosiniNumber Normal
+hi link sqlKeyword Identifier
+hi link sqlSpecial Identifier
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
