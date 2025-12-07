@@ -217,6 +217,7 @@ hi link sqlKeyword Identifier
 hi link sqlSpecial Identifier
 hi link tomlKey Normal
 hi link tomlTable Identifier
+hi link tomlTableArray Identifier
 
 let g:terminal_ansi_colors = [
         \ '#2e3440',
